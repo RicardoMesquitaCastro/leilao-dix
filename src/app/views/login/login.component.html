@@ -1,0 +1,32 @@
+
+
+<div class="container" >
+  <a class="links" id="paracadastro"></a>
+  <a class="links" id="paralogin"></a>
+
+  <div class="content">
+
+    <!--FORMULÁRIO DE LOGIN-->
+    <div id="login">
+      <form [formGroup]="form" action="">
+        <h1>Login</h1>
+        <p>
+          <label for="nome_login">Seu email</label>
+          <input formControlName="email" id="nome_login" name="nome_login" required="required" type="text" placeholder="e-mail"/>
+        </p>
+
+        <p>
+          <label for="senha_cad">Sua senha</label>
+          <input formControlName="senha" id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+        </p>
+        <p>
+         <button (click)="logar()" >Entrar</button>
+        </p>
+
+        <p class="link">
+          Ainda não tem conta?
+          <a (click)="goToCadastro()">Cadastre-se</a>
+        </p>
+      </form>
+    </div>
+

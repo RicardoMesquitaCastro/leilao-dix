@@ -1,0 +1,54 @@
+
+.mat-button {
+
+    width: 100%;
+    position: relative;
+    text-transform: none;
+
+   }
+.example-card {
+  max-width: 400px;
+  width: 300px;
+  margin: 90px;
+
+
+
+
+}
+.container{
+  height: 150px;
+  display:flex ;
+  margin: -20px;
+
+}
+
+.square{
+  width: 30px;
+    height: 90px;
+    background: #c82323;
+    position: absolute;
+    border-radius: 3px;
+    z-index: 999;
+    left: -25px;
+}
+.square1{
+  width: 30px;
+    height: 150px;
+    background: #c82323;
+    position: absolute;
+    border-radius: 3px;
+    z-index: 999;
+    left: -25px;
+}
+.title{
+
+
+    font-weight: 350;
+    line-height: 0;
+    color: #1f1e1e;
+    text-align: left;
+
+}
+
+
+

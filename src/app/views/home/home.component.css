@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+  background-color: rgba(19, 17, 17, 0.932);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+}
+
+.example{
+  flex: 1 1 auto;
+}
+span{
+  padding: 20px;
+  color: white;
+  height: 40px;
+
+
+}
+.button-menu{
+  color: white;
+  padding: 20px;
+
+}
+
+
+img{
+  width: 110px;
+
+}

@@ -1,0 +1,31 @@
+<mat-tab-group mat-align-tabs="start" style="padding-top: 40px; padding-left:2%; padding-right: 2%">
+  <mat-tab label="Proximos Leilões" >
+    <div fxLayout="row wrap" fxLayoutAlign="start center" style="padding: 2%;" >
+      <div style="margin: 0.5% ;">
+        <mat-card class="example-card"
+        fxflex="0 1 calc(33.3% - 11px)"
+        fxflex.lt-md="0 1 calc(50% - 11px)"
+        fxflex.lt-sm="100%">
+        <mat-card-header>
+          <mat-card-title>LEILÃO FAZENDA MARATÁ</mat-card-title>
+          <mat-card-subtitle>22 Matrizes de alta genética</mat-card-subtitle>
+        </mat-card-header>
+        <div>
+        <img mat-card-image src="https://blog.agroline.com.br/wp-content/uploads/2021/10/f747c4aedf1aa02734f11b71174e7321_NELORE_02-opt-1.jpg" alt="Nelore">
+      <h2>29 NOV. 15:00</h2>
+      </div>
+        <mat-card-content>
+          <div>
+          <mat-icon>place</mat-icon>
+          <p>Orizona-Goiás</p>
+        </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="goToDetailsAgends()" class="mat-button" mat-flat-button color="warn">DETALHES</button>
+        </mat-card-actions>
+      </mat-card>
+      </div>
+    </div>
+  </mat-tab>
+  </mat-tab-group>
+

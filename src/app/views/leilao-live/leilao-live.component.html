@@ -1,0 +1,32 @@
+
+<mat-tab-group mat-align-tabs="start" style="padding-top: 40px; padding-left:2%; padding-right: 2%">
+  <mat-tab label="Leilões aovivo">
+    <div fxLayout="row wrap" fxLayoutAlign="start center" style="padding: 2%;" >
+      <div style="margin: 0.5% ;">
+        <mat-card class="example-card"
+        fxflex="0 1 calc(33.3% - 11px)"
+        fxflex.lt-md="0 1 calc(50% - 11px)"
+        fxflex.lt-sm="100%">
+        <mat-card-header>
+          <mat-card-title>LEILÃO FAZENDA FIRMEZA</mat-card-title>
+          <mat-card-subtitle>35 animais de alta genética</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://bis365.com.br/bid365/storage/auctions/z7ig6b6VDlFoDLoa0bev76Mdosij2xEQjo8ToSbI.jpg" alt="Nelore">
+        <mat-card-content>
+          <div>
+          <mat-icon>place</mat-icon>
+          <p>Orizona-Goiás</p>
+        </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="goToDetails()" class="mat-button" mat-flat-button color="warn"><mat-icon>play_arrow</mat-icon>Ao Vivo</button>
+        </mat-card-actions>
+      </mat-card>
+      </div>
+    </div>
+  </mat-tab>
+  </mat-tab-group>
+
+
+
+
