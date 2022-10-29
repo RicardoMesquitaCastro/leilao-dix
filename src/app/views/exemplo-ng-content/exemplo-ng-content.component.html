@@ -1,1 +1,15 @@
-<p>exemplo-ng-content works!</p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">
+    <ng-content select=".titulo"></ng-content>
+  </button>
+  <button type="button" class="btn btn-default">
+    <ng-content select=".corpo"></ng-content>
+  </button>
+  <button type="button" class="btn btn-default">
+    <ng-content select=".corpo1"></ng-content>
+  </button>
+
+</div>

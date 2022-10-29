@@ -28,6 +28,8 @@ import { DiretivaNgswitchComponent } from './views/diretiva-ngswitch/diretiva-ng
 import { DiretivaNgforComponent } from './views/diretiva-ngfor/diretiva-ngfor.component';
 import { OperadorElvisComponent } from './views/operador-elvis/operador-elvis.component';
 import { ExemploNgContentComponent } from './views/exemplo-ng-content/exemplo-ng-content.component';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
+import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
 
 
 
@@ -48,6 +50,8 @@ import { ExemploNgContentComponent } from './views/exemplo-ng-content/exemplo-ng
     DiretivaNgforComponent,
     OperadorElvisComponent,
     ExemploNgContentComponent,
+    FundoAmareloDirective,
+    DiretivasCustomizadasComponent,
 
   ],
   imports: [
