@@ -1,0 +1,27 @@
+.mat-button {
+
+  width: 70%;
+  position: relative;
+  text-transform: none;
+
+
+ }
+ .mat-button1 {
+
+  width: 100%;
+  position: sticky;
+  text-transform: none;
+  margin-top: -50;
+
+
+ }
+ .example-card {
+  max-width: 400px;
+  width: 500px;
+  margin: 90px;
+
+
+
+
+
+}

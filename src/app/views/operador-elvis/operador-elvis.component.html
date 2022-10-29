@@ -1,0 +1,7 @@
+<p>Descrição: {{ tarefa.desc }}</p>
+<!--p>Responsável: {{ tarefa.responsavel.nome}}</p>-->
+
+<p>Responsável: {{ tarefa.responsavel != null ? tarefa.responsavel.nome:'' }}</p>
+<!--Se o responsavel for diferente de nulo, é utilizado o tarefa.nome. Caso contrario colocamos um vazio '' -->
+
+<p>Responsável: {{ tarefa.responsavel?.nome}}</p>  <!--Operador Elvis, logica diferente enxuta-->

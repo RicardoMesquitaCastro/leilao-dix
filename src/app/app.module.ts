@@ -11,6 +11,7 @@ import { DetailsLiveComponent } from './views/details-live/details-live.componen
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -22,6 +23,11 @@ import { LoginComponent } from './views/login/login.component';
 import { CadastroComponent } from './views/cadastro/cadastro.component';
 import { ToolbarComponent } from './views/toolbar/toolbar.component';
 import { DetailsAgendsComponent } from './components/details-agends/details-agends.component';
+import { DiretivaNgifComponent } from './views/diretiva-ngif/diretiva-ngif.component';
+import { DiretivaNgswitchComponent } from './views/diretiva-ngswitch/diretiva-ngswitch.component';
+import { DiretivaNgforComponent } from './views/diretiva-ngfor/diretiva-ngfor.component';
+import { OperadorElvisComponent } from './views/operador-elvis/operador-elvis.component';
+import { ExemploNgContentComponent } from './views/exemplo-ng-content/exemplo-ng-content.component';
 
 
 
@@ -37,6 +43,11 @@ import { DetailsAgendsComponent } from './components/details-agends/details-agen
     CadastroComponent,
     ToolbarComponent,
     DetailsAgendsComponent,
+    DiretivaNgifComponent,
+    DiretivaNgswitchComponent,
+    DiretivaNgforComponent,
+    OperadorElvisComponent,
+    ExemploNgContentComponent,
 
   ],
   imports: [
@@ -51,7 +62,8 @@ import { DetailsAgendsComponent } from './components/details-agends/details-agen
     MatTreeModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
